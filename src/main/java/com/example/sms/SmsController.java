@@ -15,9 +15,9 @@ import java.net.URI;
 @RestController
 public class SmsController {
 
-    public static final String ACCOUNT_SID = "ACeca1e320f6acdef07ef5311eb13ced02";
-    public static final String AUTH_ID = "3948765e839e39fff7ffeeb7d1d18186";
-    public static final String number = "+12075315804";
+    public static final String ACCOUNT_SID = "AaCbeccdae1fe320f6acdef07ef5311eb13ced02";
+    public static final String AUTH_ID = "3a9b4c8d7e6f5e839e39fff7ffeeb7d1d18186";
+    public static final String number = "+120753158048013473087";
 
 
     @GetMapping(value = "/sendsms", params = {"to","body"})
